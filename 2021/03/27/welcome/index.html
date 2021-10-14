@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="这是v1.0更新的重大提示。">
+  <meta name="description" content="这是v1.1更新的重大提示。">
   <meta name="author" content="小龙">
   <meta name="keywords" content="">
   
@@ -197,7 +197,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      298 字
+      507 字
     </span>
   
 
@@ -207,7 +207,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      3
+      5
        分钟
     </span>
   
@@ -246,9 +246,7 @@
               </p>
             
             <div class="markdown-body">
-              <p>Welcome to SmallDragon’s Blog!</p>
-<p>这是v1.0更新的重大提示。</p>
-<h3 id="个人的话"><a href="#个人的话" class="headerlink" title="个人的话"></a>个人的话</h3><p>从大一刚入学开始就心心念念想做的个人blog，在略微了解命令行操作和markdown文档语法后的今天，我 <del>借助百度和知乎等搜索工具和狗都能学会的操作指南</del> 终于完成了这一工程。</p>
+              <h1 id="Welcome-to-SmallDragon’s-Blog"><a href="#Welcome-to-SmallDragon’s-Blog" class="headerlink" title="Welcome to SmallDragon’s Blog!"></a>Welcome to SmallDragon’s Blog!</h1><h2 id="v1-0"><a href="#v1-0" class="headerlink" title="v1.0"></a>v1.0</h2><h3 id="个人的话"><a href="#个人的话" class="headerlink" title="个人的话"></a>个人的话</h3><p>从大一刚入学开始就心心念念想做的个人blog，在略微了解命令行操作和markdown文档语法后的今天，我 <del>借助百度和知乎等搜索工具和狗都能学会的操作指南</del> 终于完成了这一工程。</p>
 <p>一方面是意识到自从去年感情上受挫以后自己的生活状态日益消沉，无论是学习还是自我提升都在止步不前，因而想要寻求改变，至少不至于连自己想做的事情都做不了。</p>
 <p>另一方面也是出于想把自己的无趣生活记录下来，毕竟曾经也想过学习文学，写作这一记录时光流转的方式确实让我着迷。</p>
 <p>因此在无聊的深夜东拼西凑完成了这样的网站，大概是自己的一些意难平吧。</p>
@@ -264,10 +262,24 @@
             <input type="checkbox" disabled >正儿八经学学python和css
           </div>
 
-<p><del><div>
-            <input type="checkbox" disabled >valine评论拉取qq头像
-          </div></del><sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="我发现我的valine云端挂掉了，想干脆去掉评论模组得了
+<p> <del>valine评论拉取qq头像</del> <sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="我发现我的valine云端挂掉了，想干脆去掉评论模组得了
 ">[1]</span></a></sup></p>
+<h2 id="v1-1"><a href="#v1-1" class="headerlink" title="v1.1"></a>v1.1</h2><h3 id="个人的话-1"><a href="#个人的话-1" class="headerlink" title="个人的话"></a>个人的话</h3><p>上学期熬夜做出来属于自己的Blog后许久未动，一方面是对markdown语法的不熟悉让我在撰写文档时很容易出现思路上的断层，另一方面由于自身知识水平的限制，许多内容都仅仅是空想，对于电子档笔记也没有十分明确的思路。于是这个网站就搁浅了许久。</p>
+<p>现在又有了部分新的想法，于是重新拾起我的小网站，用于记录与分享。</p>
+<h3 id="更新内容"><a href="#更新内容" class="headerlink" title="更新内容"></a>更新内容</h3><ul>
+<li>删除了valine评论模块<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="我发现我的valine云端挂掉了，想干脆去掉评论模组得了
+">[1]</span></a></sup></li>
+<li>增加了文档的加密模块<ul>
+<li>基于”hexo-blog-encrypt”实现。</li>
+<li>我发现它好像和我的fluid主题不兼容，姑且先用着</li>
+</ul>
+</li>
+<li>对部分文档的分类进行了调整</li>
+</ul>
+<h3 id="未来要做的-1"><a href="#未来要做的-1" class="headerlink" title="未来要做的"></a>未来要做的</h3><ul>
+<li><input disabled="" type="checkbox"> 重新添加评论模组</li>
+<li><input disabled="" type="checkbox"> 换用hexo主题</li>
+</ul>
 <section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>我发现我的valine云端挂掉了，想干脆去掉评论模组得了
 <a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
             </div>
@@ -317,40 +329,6 @@
               
             </div>
 
-            
-              <!-- Comments -->
-              <article class="comments" id="comments" lazyload>
-                
-                  
-                
-                
-  <div id="valine"></div>
-  <script type="text/javascript">
-    Fluid.utils.lazyComments('valine', function() {
-      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', function () {
-        new Valine({
-          el: "#valine",
-          app_id: "B1MU5pQG3dr3Of26S0lD3NVL-gzGzoHsz",
-          app_key: "XNghOFV1zVrFtEgDGe2RkpfK",
-          placeholder: "",
-          path: window.location.pathname,
-          avatar: "robohash",
-          meta: ["nick","mail"],
-          pageSize: "10",
-          lang: "zh-CN",
-          highlight: false,
-          recordIP: false,
-          serverURLs: "",
-        });
-      });
-    });
-  </script>
-  <noscript>Please enable JavaScript to view the
-    <a target="_blank" href="https://valine.js.org" rel="nofollow noopener noopener">comments powered by Valine.</a>
-  </noscript>
-
-
-              </article>
             
           </article>
         </div>

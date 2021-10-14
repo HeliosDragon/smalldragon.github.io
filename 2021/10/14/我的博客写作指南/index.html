@@ -14,7 +14,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
   <meta name="theme-color" content="#2f4154">
-  <meta name="description" content="寸进亦有寸进的欢喜.">
+  <meta name="description" content="因为对Markdown文本编辑和hexo操作尚不熟悉，我把常用的操作集合到这一篇指南当中，作为备忘录提示自己不要忘记各类语法操作。">
   <meta name="author" content="小龙">
   <meta name="keywords" content="">
   
@@ -197,7 +197,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      400 字
+      424 字
     </span>
   
 
@@ -207,7 +207,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      4
+      5
        分钟
     </span>
   
@@ -257,6 +257,9 @@
 <p>操作完成后可以通过访问<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000</a>实现本地预览</p>
 <h3 id="将新的博客推送到云端"><a href="#将新的博客推送到云端" class="headerlink" title="将新的博客推送到云端"></a>将新的博客推送到云端</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs gitbash">hexo d<br></code></pre></td></tr></table></figure>
 
+<h3 id="修改Front-matter格式"><a href="#修改Front-matter格式" class="headerlink" title="修改Front-matter格式"></a>修改Front-matter格式</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs markdown">---<br>title: Hello World<br>date: 2013/7/13 20:46:25<br>---<br><br></code></pre></td></tr></table></figure>
+
+<p>修改 <code>/scaffolds/post.md</code> 文件即可</p>
 <h2 id="markdown语法"><a href="#markdown语法" class="headerlink" title="markdown语法"></a>markdown语法</h2><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-bullet">-</span> something<br><span class="hljs-bullet">  -</span> something<br><span class="hljs-bullet">+</span> something<br><span class="hljs-bullet">  +</span> something<br><span class="hljs-bullet">*</span> something<br><span class="hljs-bullet">  *</span> something<br></code></pre></td></tr></table></figure>
 
 <ul>
@@ -314,6 +317,13 @@
             <div>
               <div class="post-metas mb-3">
                 
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Notes/">Notes</a>
+                    
+                  </div>
+                
                 
               </div>
               
@@ -343,40 +353,6 @@
               
             </div>
 
-            
-              <!-- Comments -->
-              <article class="comments" id="comments" lazyload>
-                
-                  
-                
-                
-  <div id="valine"></div>
-  <script type="text/javascript">
-    Fluid.utils.lazyComments('valine', function() {
-      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', function () {
-        new Valine({
-          el: "#valine",
-          app_id: "B1MU5pQG3dr3Of26S0lD3NVL-gzGzoHsz",
-          app_key: "XNghOFV1zVrFtEgDGe2RkpfK",
-          placeholder: "",
-          path: window.location.pathname,
-          avatar: "robohash",
-          meta: ["nick","mail"],
-          pageSize: "10",
-          lang: "zh-CN",
-          highlight: false,
-          recordIP: false,
-          serverURLs: "",
-        });
-      });
-    });
-  </script>
-  <noscript>Please enable JavaScript to view the
-    <a target="_blank" href="https://valine.js.org" rel="nofollow noopener noopener">comments powered by Valine.</a>
-  </noscript>
-
-
-              </article>
             
           </article>
         </div>
